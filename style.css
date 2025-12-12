@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://i.imgur.com/5FqCz7i.jpeg') no-repeat center/cover;
+    color: #fff;
+}
+
+
+.page-title h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+
+.topic-title {
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px 25px;
+    width: 85%;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+
